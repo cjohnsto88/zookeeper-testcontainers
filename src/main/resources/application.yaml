@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: zookeeper-testcontainers
+  cloud:
+    zookeeper:
+      max-retries: 20
+      base-sleep-time-ms: 100
+      max-sleep-ms: 1000
